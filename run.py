@@ -1,18 +1,18 @@
-import k
+import ko
 import sys
 
 # Device Lock စနစ်ကို အရင်စစ်ဆေးပါမယ်
-if k.check_activation():
+if ko.check_activation():
     # Activation အောင်မြင်ရင် Main Menu ကို loop ပတ်ပြီး ဖွင့်ပါမယ်
     while True:
         try:
-            k.main_menu()
+            ko.main_menu()
             choice = input(f"\n\033[1;33mSelect Option (1, 2 or 3 to Exit): \033[1;00m").strip()
             
             if choice == '1':
-                k.option_adb_connect()
+                ko.option_adb_connect()
             elif choice == '2':
-                k.option_auto_bypass()
+                ko.option_auto_bypass()
             elif choice == '3':
                 print("\n\033[1;32m[+] Goodbye!\033[1;00m")
                 break
