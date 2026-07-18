@@ -159,7 +159,7 @@ $$    $$/    $$ |  $$ |  $$ |$$ |  $$ |$$ | $/  $$ |$$    $$/ $$ |  $$ |
     print(logo)
     Line()
     print(f"{w}      [*] This tool is only for Ruijie Network Router")
-    print(f"{w}      [*] Telegram: @naymin126653 / @donebro100")
+    print(f"{w}      [*] Telegram: WTF")
     Line()
 
 # ==================== OFFLINE VENDOR DATABASE ====================
